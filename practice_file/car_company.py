@@ -37,4 +37,18 @@ del car_detail_list[1]
 print(car_company_list)
 print(car_detail_list)
 print()
+
+# 딕셔너리 구조
+# 코드 반복 지속, 중첩 문제(키는 유일해야), 키 조회 예외 처리 등
+car_dicts = [
+    {'car_company': 'Ferrari', 'car_detail':{'color': 'White', 'housepower': 500, 'price': 8000}},
+    {'car_company': 'BMW', 'car_detail':{'color': 'Black', 'housepower': 300, 'price': 5000}},
+    {'car_company': 'Audi', 'car_detail':{'color': 'Silver', 'housepower': 400, 'price': 6000}}
+]
+print(car_dicts)
+
+del car_dicts[1]
+print(car_dicts)
+
 print()
+
