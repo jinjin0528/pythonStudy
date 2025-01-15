@@ -52,3 +52,14 @@ print(car_dicts)
 
 print()
 
+
+# 클래스 구조
+# 필기 : 구조 설계 후 재사용성 증가, 코드 반복 최소화, 메소드 활용
+class Car():
+    def __init__(self, company, details):
+        self._company = company
+        self._details = details
+
+    car1 = Car('Ferrari', {'color': 'White', 'housepower': 500, 'price': 8000})
+
+    print(car1)
