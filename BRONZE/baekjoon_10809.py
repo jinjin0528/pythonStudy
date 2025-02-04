@@ -1,4 +1,4 @@
-s = list(input())
+s = input()
 abc = 'abcdefghijklnmopqrstuvwxyz'
 
 for i in abc:
