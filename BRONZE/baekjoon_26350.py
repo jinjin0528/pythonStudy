@@ -15,7 +15,6 @@ for _ in range(t):
             is_good = False
             break
 
-    # 결과 출력
     if is_good:
         print("Good coin denominations!")
     else:
