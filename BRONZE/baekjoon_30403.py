@@ -17,7 +17,19 @@ for i in x:
     elif i.islower():
         s.append(i)
 
-if all(str in D)
+if all(str in s for str in lowerR):
+    low = 1
+if all(str in r for str in upperR):
+    upp = 1
+
+if low == 1 and upp == 1:
+    print('YeS')
+elif low == 1 and upp == 0:
+    print('yes')
+elif low == 0 and upp == 1:
+    print('YES')
+else:
+    print('NO!')
 
 # rainbow = 'roygbiv'
 # if n == 7 :
@@ -26,7 +38,7 @@ if all(str in D)
 #             print('yes')
 #         else :
 #             print('YES')
-
+'''
 n = int(input())  # 문자열 길이 입력
 s = input()       # 문자열 입력
 
@@ -47,4 +59,4 @@ elif can_make_lower:
 elif can_make_upper:
     print("YES")
 else:
-    print("NO!")
+    print("NO!") '''
